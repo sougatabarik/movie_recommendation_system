@@ -6,4 +6,4 @@
 <br>
 ## 🧮 Methodology 1. **Data Preprocessing** - Clean and merge datasets (movies + credits). - Extract relevant features (genres, keywords, cast, crew). - Convert text data into numerical vectors using **CountVectorizer** or **TF-IDF**. 2. **Vector Representation** - Each movie is represented as a feature vector. 3. **Cosine Similarity Calculation** - Compute similarity scores between movies using: \[ \text{cosine similarity}(A, B) = \frac{A \cdot B}{||A|| \cdot ||B||} \] 4. **Recommendation Engine** - Given a movie title, find its vector. - Rank all other movies by similarity score. - Return the top N recommendations. --- 
 <br>
-## 🛠️ Tech Stack - **Python 3.x** - **Libraries:** Pandas, NumPy, Scikit-learn - **Dataset:** TMDB (The Movie Database)
+## 🛠️ Tech Stack - **Python 3.13** - **Libraries:** Pandas, NumPy, Scikit-learn - **Dataset:** TMDB (The Movie Database)
